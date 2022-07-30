@@ -1,0 +1,27 @@
+1. class movie{
+  constructor(title,studio,rating){
+    this.title=title;
+    this.studio=studio;
+    this.rating=rating;
+  }
+  getTitle(){return this.title};
+  getStudio(){return this.studio};
+  getRating(){return this.rating};
+}
+let movie1=new movie("Avengers:endgame","Marvel productions","PG-13");
+console.log(movie1.getTitle());
+console.log(movie1.getStudio());
+console.log(movie1.getRating());
+
+let movie2=new movie("The GodFather","Paramount Pictures","R");
+console.log(movie2.getTitle());
+console.log(movie2.getStudio());
+console.log(movie2.getRating());
+
+
+output:Avengers:endgame
+         Marvel production
+         PG-13
+         The GodFather
+         Paramount Pictures
+         R

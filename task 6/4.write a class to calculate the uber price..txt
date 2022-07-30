@@ -1,0 +1,18 @@
+4. class uberprice{
+  constructor(distanceKm,charges){
+    console.log ('your uber price is');
+    this.distanceKm=distanceKm;
+    this.charges=charges;
+  }
+  getPrice(){
+    return this.distanceKm*this.charges;
+  }
+}
+let uberCharges= new uberprice(5,24)
+console.log(uberCharges.getPrice());
+
+
+
+output:
+        your uber price is
+               120

@@ -1,0 +1,51 @@
+3. class person{
+  constructor(name,age,email,gender,DOB,city,phonenumber){
+    this.name=name;
+    this.age=age;
+    this.email=email;
+    this.gender=gender;
+    this.DOB=DOB;
+    this.city=city;
+    this.phonenumber=phonenumber;
+  }
+  getName(){return this.name};
+  getAge(){return this.age};
+  getEmail(){return this.email};
+  getGender(){return this.gender};
+  getDob(){return this.DOB};
+  getCity(){return this.city};
+  getPhonenumber(){return this.phonenumber};
+}
+let person1=new person("hemanth sai",21,"hemanth@gmail.com","male","14-12-2000","Tirupathi",7766889921);
+console.log(person1.getName());
+console.log(person1.getAge());
+console.log(person1.getEmail());
+console.log(person1.getGender());
+console.log(person1.getDob());
+console.log(person1.getCity());
+console.log(person1.getPhonenumber());
+
+let person2=new person("praneeth",25,"praneeth@gmail.com","male","24-11-1997","Bangalore","7766889923");
+console.log(person2.getName());
+console.log(person2.getAge());
+console.log(person2.getEmail());
+console.log(person2.getGender());
+console.log(person2.getDob());
+console.log(person2.getCity());
+console.log(person2.getPhonenumber());
+
+
+output: hemanth sai      
+        21
+        hemanth@gmail.com
+        male
+        14-12-2000
+        Tirupathi
+        7766889921
+        praneeth
+        25
+        praneeth@gmail.com
+        male
+        24-11-1997
+        Bangalore
+        7766889923

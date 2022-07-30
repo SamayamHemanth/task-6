@@ -1,0 +1,21 @@
+2. class circle{
+  constructor(radius,color){
+    this.radius=radius;
+    this.color=color;
+  }
+  getRadius(){return this.radius};
+  getColor(){return this.color};
+  getArea(){return Math.PI * Math.pow(this.radius,2)};
+  getCircumference(){return 2 * Math.PI * (this.radius)};
+}
+let newCircle= new circle(4,"red");
+console.log(newCircle.getRadius()); 
+console.log(newCircle.getColor());
+console.log(newCircle.getArea()); 
+console.log(newCircle.getCircumference());
+
+
+output: 4
+        red
+        50.26548245743669
+        25.132741228718345
